@@ -1,3 +1,5 @@
+#highlightDates2 highlightDates3 options added
+
 # React Date Picker
 
 [![Join the chat at https://gitter.im/Hacker0x01/react-datepicker](https://badges.gitter.im/Hacker0x01/react-datepicker.svg)](https://gitter.im/Hacker0x01/react-datepicker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

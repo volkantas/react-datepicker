@@ -33,6 +33,8 @@ export default React.createClass({
             selected={this.state.startDate}
             onChange={this.handleChange}
             highlightDates={[moment().subtract(7, 'days'), moment().add(7, 'days')]}
+            highlightDates2={[moment().subtract(2, 'days'), moment().add(9, 'days')]}
+            highlightDates3={[moment().subtract(5, 'days'), moment().add(3, 'days')]}
             placeholderText="This highlights a week ago and a week from today" />
       </div>
     </div>

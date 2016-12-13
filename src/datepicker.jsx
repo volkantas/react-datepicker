@@ -35,6 +35,8 @@ var DatePicker = React.createClass({
     filterDate: React.PropTypes.func,
     fixedHeight: React.PropTypes.bool,
     highlightDates: React.PropTypes.array,
+    highlightDates2: React.PropTypes.array,
+    highlightDates3: React.PropTypes.array,
     id: React.PropTypes.string,
     includeDates: React.PropTypes.array,
     inline: React.PropTypes.bool,
@@ -237,6 +239,8 @@ var DatePicker = React.createClass({
         filterDate={this.props.filterDate}
         onClickOutside={this.handleCalendarClickOutside}
         highlightDates={this.props.highlightDates}
+        highlightDates2={this.props.highlightDates2}
+        highlightDates3={this.props.highlightDates3}
         includeDates={this.props.includeDates}
         peekNextMonth={this.props.peekNextMonth}
         showMonthDropdown={this.props.showMonthDropdown}

@@ -160,6 +160,26 @@
     }
   }
 
+  &--highlighted2 {
+    border-radius: $border-radius;
+    background-color: $highlighted2-color;
+    color: #fff;
+
+    &:hover {
+      background-color: darken($highlighted2-color, 5%);
+    }
+  }
+
+  &--highlighted3 {
+    border-radius: $border-radius;
+    background-color: $highlighted3-color;
+    color: #fff;
+
+    &:hover {
+      background-color: darken($highlighted3-color, 5%);
+    }
+  }
+
   &--selected,
   &--in-selecting-range,
   &--in-range {
