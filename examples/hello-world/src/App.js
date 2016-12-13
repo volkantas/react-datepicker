@@ -17,6 +17,9 @@ class App extends Component {
       <DatePicker
         selected={this.state.startDate}
         onChange={this.handleChange.bind(this)}
+        highlightDates={[moment().subtract(7, "days"), moment().add(7, "days")]}
+        highlightDates2={[moment().subtract(3, "days"), moment().add(3, "days")]}
+        highlightDates3={[moment().subtract(2, "days"), moment().add(9, "days")]}
       />
     );
   }
